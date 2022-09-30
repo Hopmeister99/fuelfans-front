@@ -3,18 +3,16 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { MainComponentComponent } from './main-component/main-component.component';
-import { MapComponentComponent } from './map-component/map-component.component';
-import { ResultsComponentComponent } from './results-component/results-component.component';
-import { InputComponentComponent } from './input-component/input-component.component';
+import { InputComponent } from './input/input.component';
+import { MapComponent } from './map/map.component';
+import { ResultsComponent } from './results/results.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    MainComponentComponent,
-    MapComponentComponent,
-    ResultsComponentComponent,
-    InputComponentComponent
+    InputComponent,
+    MapComponent,
+    ResultsComponent,
   ],
   imports: [
     BrowserModule,
